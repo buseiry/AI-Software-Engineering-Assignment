@@ -34,4 +34,4 @@ if __name__ == "__main__":
 
     print("AI-Generated:", sort_dicts_by_key(data, "age"))
     print("Manual:", manual_sort_dicts_by_key(data.copy(), "age"))
-    data
+    print("Original:", data)
